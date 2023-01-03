@@ -37,8 +37,8 @@ img {
   --title-font-size: 1.875rem;
   --subtitle-font-size: 1rem;
 
-  --title-font: 'Share', sans-serif;
-  --body-font: 'Share', cursive;
+  --title-font: "Share", sans-serif;
+  --body-font: "Share", cursive;
 }
 
 /*====  BASE ============================ */
@@ -190,7 +190,7 @@ nav ul li a.active {
 }
 
 nav ul li a::after {
-  content: '';
+  content: "";
   width: 0%;
   height: 2px;
   background: var(--base-color);
@@ -287,7 +287,7 @@ nav.show div.icon-close {
 }
 
 #home .image::before {
-  content: '';
+  content: "";
   height: 100%;
   width: 100%;
   background: var(--base-color-second);
@@ -321,6 +321,23 @@ nav.show div.icon-close {
   margin-bottom: 2rem;
 }
 
+.notice {
+  display: block;
+  text-align: center;
+
+  margin: 4rem 1.5rem 0 1.5rem;
+}
+
+.notice span {
+}
+
+.notice .image-step1 {
+  width: 32rem;
+  height: 16rem;
+
+  margin-top: 4rem;
+}
+
 /*====  ABOUT ============================ */
 
 #about {
@@ -336,7 +353,7 @@ nav.show div.icon-close {
 }
 
 #about .image::before {
-  content: '';
+  content: "";
   height: 100%;
   width: 100%;
   background: var(--base-color-second);
@@ -358,6 +375,14 @@ nav.show div.icon-close {
 #about .text {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+}
+
+#about .text .image-step2 {
+  display: block;
+  margin: auto;
+
+  width: 20rem;
+  height: 24rem;
 }
 
 /*====  SERVICES ============================ */
