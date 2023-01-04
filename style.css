@@ -299,7 +299,6 @@ nav.show div.icon-close {
 
 #home .image img {
   position: relative;
-  right: 2.93rem;
 }
 
 #home .image img,
@@ -328,14 +327,10 @@ nav.show div.icon-close {
   margin: 4rem 1.5rem 0 1.5rem;
 }
 
-.notice span {
-}
-
-.notice .image-step1 {
-  width: 32rem;
-  height: 16rem;
-
-  margin-top: 4rem;
+.mobile-iphone {
+  font-size: 20px;
+  text-align: center;
+  margin: 4rem 1.5rem 0 1.5rem;
 }
 
 /*====  ABOUT ============================ */
@@ -375,6 +370,7 @@ nav.show div.icon-close {
 #about .text {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+  text-align: center;
 }
 
 #about .text .image-step2 {
@@ -387,7 +383,7 @@ nav.show div.icon-close {
 
 /*====  SERVICES ============================ */
 
-.cards.grid {
+/* .cards.grid {
   gap: 1.5rem;
 }
 
@@ -409,7 +405,7 @@ nav.show div.icon-close {
 .card .title {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
-}
+} */
 
 /*====  TESTIMONIALS ============================ */
 /*
@@ -504,6 +500,12 @@ nav.show div.icon-close {
 
 #contact ul li i {
   color: var(--base-color);
+}
+
+#contact h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+  font-style: normal;
 }
 
 /*====  FOOTER   ============================ */
@@ -637,7 +639,11 @@ footer .social a:hover {
   #home .text {
     order: 0;
     max-width: 24rem;
-    text-align: left;
+    text-align: center;
+  }
+
+  #about {
+    text-align: center;
   }
 
   #about .container {
@@ -689,3 +695,9 @@ footer .social a:hover {
     --subtitle-font-size: 1.125rem;
   }
 }
+
+@media (max-width: 1199px) {
+  #contact {
+    text-align: center;
+  }
+} ;
