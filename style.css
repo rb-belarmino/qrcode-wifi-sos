@@ -326,6 +326,15 @@ nav.show div.icon-close {
 
   margin: 4rem 1.5rem 0 1.5rem;
 }
+.img-step1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  margin: 0 auto;
+  width: 32rem;
+  height: 20rem;
+}
 
 .mobile-iphone {
   font-size: 20px;
@@ -519,10 +528,10 @@ footer.section {
 }
 
 footer .logo {
-  display: inline-block;
-  margin-bottom: 1.5rem;
-  width: 8rem;
-  height: 4rem;
+  display: flex;
+
+  width: 14rem;
+  height: 6rem;
 }
 
 footer .brand p {
@@ -700,4 +709,15 @@ footer .social a:hover {
   #contact {
     text-align: center;
   }
-} ;
+  .notice img {
+    width: 24rem;
+    height: 16rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .notice img {
+    width: 18rem;
+    height: 12rem;
+  }
+}
