@@ -34,13 +34,17 @@ img {
   --body-color: rgb(255, 255, 255);
 
   /* fonts */
+
   --title-font-size: 1.875rem;
   --subtitle-font-size: 1rem;
 
   --title-font: "Share", sans-serif;
   --body-font: "Share", cursive;
 }
-
+@font-face {
+  font-family: Sharon, sans-serif;
+  src: url(./assets/fonts/fonts/SharonSans-Bold.otf) format("opentype");
+}
 /*====  BASE ============================ */
 
 html {
@@ -145,9 +149,7 @@ body {
 /*====  LOGO ============================ */
 
 .logo {
-  font: 700 4rem var(--title-font);
-  color: white;
-
+  width: 10rem;
   display: flex;
 }
 
